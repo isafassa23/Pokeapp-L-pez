@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PokéBloom • Mi Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <span class="pokeball">◉</span>
+        <div>
+          <strong>pokébloom</strong>
+          <small>tu mundo pokémon ✦</small>
+        </div>
+      </div>
+      <nav>
+        <button data-pagina="inicio">Inicio</button>
+        <button data-pagina="pokedex">Pokédex</button>
+        <button data-pagina="batalla">Batalla</button>
+        <button data-pagina="login">Ingresar</button>
+        <button data-pagina="registro">Registro</button>
+        <button data-pagina="carga" id="botonAdmin" hidden>+ Pokémon</button>
+        <button id="salir" hidden>Salir</button>
+      </nav>
+      <span id="saludo" class="saludo"></span>
+    </header>
+    <main id="pantalla" aria-live="polite"></main>
+    <footer>✦ Isabella López · HTML + CSS + JavaScript · 4.º año ✦</footer>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
